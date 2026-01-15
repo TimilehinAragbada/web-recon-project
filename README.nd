@@ -1,0 +1,49 @@
+# Web Reconnaissance Lab – Test Project
+
+## Overview
+This repository contains a **legal and controlled web reconnaissance lab** performed on the demo target `testphp.vulnweb.com`.  
+The objective of this lab was to **learn reconnaissance techniques** using common security tools and to document findings in a professional report.
+
+---
+
+## Target
+- URL: `http://testphp.vulnweb.com`  
+- Scope: Non-intrusive and safe scanning for educational purposes only.
+
+---
+
+## Tools Used
+| Tool | Purpose |
+|------|---------|
+| **Nmap** | Network and port scanning |
+| **Dirb** | Directory enumeration and hidden resource discovery |
+| **Nikto** | Web server vulnerability scanning |
+
+---
+
+## Methodology
+1. **Port and service discovery** using Nmap to identify open ports and running services.  
+2. **Directory enumeration** using Dirb to locate hidden paths and endpoints.  
+3. **Vulnerability scanning** using Nikto to detect web server misconfigurations and potential risks.  
+4. **Report compilation** documenting results, risks, and recommendations.
+
+---
+
+## Findings
+- **Nmap:** Multiple open HTTP services found, server version disclosed (nginx 1.19.0), some non-standard ports exposed.  
+- **Dirb:** No sensitive directories were found, and rate-limiting appears to be in place.  
+- **Nikto:** No critical vulnerabilities or misconfigurations detected, suggesting basic server hardening.  
+
+---
+
+## Conclusion
+The lab demonstrates **real-world reconnaissance practices** in a safe environment.  
+No high-risk vulnerabilities were found on the target, but open services and exposed server information highlight the importance of monitoring and hardening web applications.
+
+---
+
+## Files
+- `nmap.txt` – Raw Nmap output  
+- `dirb.txt` – Directory enumeration results  
+- `nikto.txt` – Nikto scan output  
+- `report.md` – Professional lab report summarizi
