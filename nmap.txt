@@ -1,0 +1,88 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-15 20:13 WAT
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.28s latency).
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+Not shown: 995 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT     STATE  SERVICE   VERSION
+80/tcp   open   http      nginx 1.19.0
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   ssl/xmpp?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8008-TCP:V=7.94SVN%I=7%D=1/15%Time=69693C8B%P=x86_64-pc-linux-gnu%r
+SF:(GetRequest,D3,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8015
+SF:/\r\nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Pr
+SF:otection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\n
+SF:Content-Security-Policy:\x20frame-ancestors\x20'self'\r\n\r\n")%r(FourO
+SF:hFourRequest,F6,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:801
+SF:5/nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection:\x20close\r\nX-Fra
+SF:me-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX
+SF:-Content-Type-Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-
+SF:ancestors\x20'self'\r\n\r\n")%r(GenericLines,D2,"HTTP/1\.1\x20302\x20Fo
+SF:und\r\nLocation:\x20https://:8015\r\nConnection:\x20close\r\nX-Frame-Op
+SF:tions:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-ances
+SF:tors\x20'self'\r\n\r\n")%r(HTTPOptions,D2,"HTTP/1\.1\x20302\x20Found\r\
+SF:nLocation:\x20https://:8015\r\nConnection:\x20close\r\nX-Frame-Options:
+SF:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Ty
+SF:pe-Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\x
+SF:20'self'\r\n\r\n")%r(RTSPRequest,D2,"HTTP/1\.1\x20302\x20Found\r\nLocat
+SF:ion:\x20https://:8015\r\nConnection:\x20close\r\nX-Frame-Options:\x20SA
+SF:MEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Opt
+SF:ions:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\x20'sel
+SF:f'\r\n\r\n")%r(SIPOptions,D2,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x2
+SF:0https://:8015\r\nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORIGI
+SF:N\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x
+SF:20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\x20'self'\r\n\
+SF:r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8010-TCP:V=7.94SVN%T=SSL%I=7%D=1/15%Time=69693C96%P=x86_64-pc-linux
+SF:-gnu%r(GenericLines,1304,"HTTP/1\.1\x20200\x20OK\r\nContent-Length:\x20
+SF:4599\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nContent-T
+SF:ype:\x20text/html;\x20charset=utf-8\r\nX-Frame-Options:\x20SAMEORIGIN\r
+SF:\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20n
+SF:osniff\r\nContent-Security-Policy:\x20frame-ancestors\x20'self'\r\n\r\n
+SF:<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head>\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"
+SF:IE=8;\x20IE=EDGE\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\"vi
+SF:ewport\"\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20<link\x20href=\"https://fonts\.googleapis\.co
+SF:m/css\?family=Roboto&display=swap\"\x20rel=\"stylesheet\">\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20<style\x20type=\"text/css\">\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Roboto,\x20H
+SF:elvetica,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20color:\x20#6a6a6a;\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-ite
+SF:ms:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20justify-content:\x20cent")%r(GetRequest,1304,"HTTP/1\.1\x20200
+SF:\x20OK\r\nContent-Length:\x204599\r\nConnection:\x20close\r\nCache-Cont
+SF:rol:\x20no-cache\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nX-F
+SF:rame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\
+SF:nX-Content-Type-Options:\x20nosniff\r\nContent-Security-Policy:\x20fram
+SF:e-ancestors\x20'self'\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\
+SF:n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20chars
+SF:et=\"UTF-8\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"X-
+SF:UA-Compatible\"\x20content=\"IE=8;\x20IE=EDGE\">\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\
+SF:x20initial-scale=1\">\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20href=\"
+SF:https://fonts\.googleapis\.com/css\?family=Roboto&display=swap\"\x20rel
+SF:=\"stylesheet\">\n\x20\x20\x20\x20\x20\x20\x20\x20<style\x20type=\"text
+SF:/css\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2
+SF:0100%;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0font-family:\x20Roboto,\x20Helvetica,\x20Arial,\x20sans-serif;\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#6a
+SF:6a6a;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20display:\x20flex;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20align-items:\x20center;\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20cent");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 193.15 seconds

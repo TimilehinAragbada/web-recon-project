@@ -1,0 +1,31 @@
+
+-->	Nikto Databases
+Syntax Check: /var/lib/nikto/databases/db_headers
+	75 entries
+Syntax Check: /var/lib/nikto/databases/db_httpoptions
+	12 entries
+Syntax Check: /var/lib/nikto/databases/db_multiple_index
+	29 entries
+Syntax Check: /var/lib/nikto/databases/db_server_msgs
+	257 entries
+Syntax Check: /var/lib/nikto/databases/db_subdomains
+	295 entries
+Syntax Check: /var/lib/nikto/databases/db_favicon
+	108 entries
+Syntax Check: /var/lib/nikto/databases/db_embedded
+	16 entries
+Syntax Check: /var/lib/nikto/databases/db_parked_strings
+	8 entries
+Syntax Check: /var/lib/nikto/databases/db_404_strings
+	33 entries
+Syntax Check: /var/lib/nikto/databases/db_outdated
+	1253 entries
+Syntax Check: /var/lib/nikto/databases/db_realms
+	154 entries
+Syntax Check: /var/lib/nikto/databases/db_tests
+	6544 entries
+Syntax Check: /var/lib/nikto/databases/db_variables
+	12 entries
+Syntax Check: /var/lib/nikto/databases/db_content_search
+	9 entries
+

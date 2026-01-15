@@ -1,0 +1,22 @@
+# Web Reconnaissance Report
+
+## Target
+testphp.vulnweb.com
+
+## Nmap Results
+- Open ports:
+- Services discovered:
+- Security concern:
+
+## Directory Enumeration
+- Interesting directories:
+- Why these matter:
+
+## Nikto Findings
+- Vulnerabilities found:
+- Potential impact:
+
+## Conclusion
+What could an attacker realistically do?
+How should this be fixed?
+

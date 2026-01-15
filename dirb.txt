@@ -1,0 +1,22 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Thu Jan 15 20:20:57 2026
+URL_BASE: http://testphp.vulnweb.com/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+*** Generating Wordlist...                                                                               GENERATED WORDS: 4612
+
+---- Scanning URL: http://testphp.vulnweb.com/ ----
+*** Calculating NOT_FOUND code...                                                                                                                                                                                                      --> Testing: http://testphp.vulnweb.com/.bash_history                                                                                                                       --> Testing: http://testphp.vulnweb.com/.bashrc                                                                                                                       --> Testing: http://testphp.vulnweb.com/.cache                                                                                                                       --> Testing: http://testphp.vulnweb.com/.config                                                                                                                       --> Testing: http://testphp.vulnweb.com/.cvs                                                                                                                       --> Testing: http://testphp.vulnweb.com/.cvsignore                                                                                                                       --> Testing: http://testphp.vulnweb.com/.forward                                                                                                                       --> Testing: http://testphp.vulnweb.com/.git/HEAD                                                                                                                       --> Testing: http://testphp.vulnweb.com/.history                                                                                                                       --> Testing: http://testphp.vulnweb.com/.hta                                                                                                                       --> Testing: http://testphp.vulnweb.com/.htaccess                                                                               
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: OPERATION TIMEOUT)
+                                                                               
+-----------------
+END_TIME: Thu Jan 15 20:23:47 2026
+DOWNLOADED: 11 - FOUND: 0
