@@ -13,11 +13,11 @@ The objective of this lab was to **learn reconnaissance techniques** using commo
 ---
 
 ## Tools Used
-| Tool | Purpose |
-|------|---------|
-| **Nmap** | Network and port scanning |
-| **Dirb** | Directory enumeration and hidden resource discovery |
-| **Nikto** | Web server vulnerability scanning |
+|    Tool   | Purpose                                             |
+|-----------|-----------------------------------------------------|
+| **Nmap**  | Network and port scanning                           |
+| **Dirb**  | Directory enumeration and hidden resource discovery |
+| **Nikto** | Web server vulnerability scanning                   |
 
 ---
 
